@@ -5,10 +5,10 @@
 -- _a = "example.com"
 
 -- A records
-a(_a, "101.1.144.99")
+a(concat("luadns", _a), "101.1.144.99")
 
 -- CNAME records
-cname("www", _a)
+cname(concat("www.luadns", _a), concat("luadns", _a))
 
 -- Templates (see templates.lua)
 -- google_app(_a)
