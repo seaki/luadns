@@ -1,4 +1,4 @@
 luadns
 ======
 
-for luadns.com
+This is a test repo for luadns.com
