@@ -5,7 +5,7 @@
 -- _a = "example.com"
 
 -- A records
-a(_a, "192.168.1.1")
+a(_a, "101.1.144.99")
 
 -- CNAME records
 cname("www", _a)
