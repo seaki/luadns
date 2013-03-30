@@ -16,7 +16,7 @@ aaaa(concat("portage.gentoo", _a), "2001:e41:3b6a:ae59::1")
 -- CNAME records
 cname(concat("www", _a), concat("seaki-server", _a))
 cname(concat("*", _a), concat("seaki-server", _a))
-cname(concat("@", _a), concat("seaki-server", _a))
+cname(_a, concat("seaki-server", _a))
 
 -- MX records
 mx(_a, concat("a.mx", _a), 10, 3600)
